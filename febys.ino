@@ -1,3 +1,5 @@
+// Youssef Selkani 2021
+
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include "dht.h"
@@ -22,7 +24,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.home();
-  lcd.print("Febys Maroc");
+  lcd.print("Febys");
   lcd.setCursor(0, 1);
   lcd.print("v0.1 ");
   lcd.blink();
